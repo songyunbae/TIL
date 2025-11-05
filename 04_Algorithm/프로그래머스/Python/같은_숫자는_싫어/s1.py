@@ -8,4 +8,4 @@ def solution(arr):
             tmp = a
             answer.append(tmp)
 
-    return answer
+    return answer 
