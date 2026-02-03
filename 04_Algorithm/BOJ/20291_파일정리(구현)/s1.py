@@ -23,7 +23,7 @@ for a in answer:
     print(a[0], a[1])
 """
 
-""" 참고 풀이
+# 참고 풀이
 input = sys.stdin.readline
 DICT = dict()
 n = int(input())
@@ -33,4 +33,4 @@ for i in range(n):
     DICT[ext] = DICT.get(ext, 0) + 1
 
 print('\n'.join(a + ' ' + str(DICT[a]) for a in sorted(DICT.keys())))
-"""
+
